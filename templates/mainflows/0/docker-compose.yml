@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  nats-test:
+    image: akawato2018/mainflows:0.1
+    environment:
+      - NATS_TOPIC=${NATS_TOPIC_IN}
+      - NATS_TOPIC=${NATS_TOPIC_OUT}
+    network_mode: host
+
