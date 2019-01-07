@@ -1,18 +1,5 @@
 .catalog:
   name: main flows private test
-  version: 0.1
+  version: 0.3
   uuid: mainflows-0
-  questions:
-    - variable: NATS_TOPIC_OUT
-      description: 'NATS Topic out'
-      label: 'NATS Topic Out:'
-      required: true
-      default: ""
-      type: string
-    - variable: NATS_TOPIC_IN
-      description: 'NATS Topic in'
-      label: 'NATS Topic In:'
-      required: true
-      default: ""
-      type: string
 
