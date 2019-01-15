@@ -1,6 +1,6 @@
-# main flows private test Subscriber
+# main flows Subscriber
 
-This template creates a Node.js nats test application
+This template creates a Node.js nats application
 
 ## Usage
 
