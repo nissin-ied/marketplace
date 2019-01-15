@@ -1,7 +1,7 @@
 version: '2'
 
 services:
-  nats-test:
-    image: akawato2018/mainflows:0.5
+  nats-flows:
+    image: akawato2018/mainflows:0.6
     network_mode: host
 
