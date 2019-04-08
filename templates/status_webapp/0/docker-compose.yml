@@ -4,4 +4,6 @@ services:
   nats-flows:
     image: akawato2018/loader-webapp:kishor
     network_mode: host
+    ports:
+     -9090:3000
     restart: ${RESTART}
