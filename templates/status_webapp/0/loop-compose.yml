@@ -1,7 +1,7 @@
 .catalog:
   name: laod status private test
   version: kishor
-  uuid: laoder-webapp-0
+  uuid: laoder-webapp-test
   questions:
   - variable: RESTART
     description: 'Application restart option: always, on-failure'
