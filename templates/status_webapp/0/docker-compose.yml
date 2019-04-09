@@ -2,7 +2,7 @@ version: '2'
 
 services:
   nats-flows:
-    image: akawato2018/loader-webapp:0.0
+    image: akawato2018/loader-webapp:0.0.0
     network_mode: host
     ports:
       - 3000:8000
