@@ -1,6 +1,6 @@
 .catalog:
   name: load status private test
-  version: kishor
+  version: test-0
   uuid: laoder-webapp-test-0
   questions:
   - variable: RESTART
