@@ -1,3 +1,4 @@
 nodejs:
   image: akawato2018/htmltest:0.1
-
+  ports:
+      - 9090:3000
