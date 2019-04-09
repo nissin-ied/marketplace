@@ -1,7 +1,7 @@
 version: '2'
 
 services:
-  web:
+  nats-flows:
     image: akawato2018/loader-webapp:test-0
     ports:
       - 3000:3000
