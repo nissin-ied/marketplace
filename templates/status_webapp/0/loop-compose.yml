@@ -1,7 +1,7 @@
 .catalog:
   name: load status private test
-  version: 222
-  uuid: loader-webapp-test-0
+  version: 2222
+  uuid: loader-webapp-2222
   questions:
   - variable: RESTART
     description: 'Application restart option: always, on-failure'
