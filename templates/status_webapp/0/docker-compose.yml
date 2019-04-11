@@ -2,7 +2,7 @@ version: '2'
 
 services:
   nats-flows:
-    image: akawato2018/loader-webapp:2222
+    image: akawato2018/loader-webapp:publish
     ports:
       - 9090:2222
     network_mode: bridge
