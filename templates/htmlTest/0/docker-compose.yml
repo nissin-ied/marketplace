@@ -3,7 +3,7 @@ services:
   nodejs:
     image: akawato2018/htmltest:0.4
     ports:
-      - 9090:1337
+      - 9993:1337
   nats:
     image: akawato2018/nats-test:0.3
     ports:
