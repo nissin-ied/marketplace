@@ -2,8 +2,7 @@ version: '2'
 
 services:
   nats-flows:
-    image: akawato2018/loader-webapp:publish
+    image: akawato2018/loader-webapp:custom
     ports:
       - 9090:2222
-    network_mode: host
     restart: ${RESTART}
