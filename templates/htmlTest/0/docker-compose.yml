@@ -1,4 +1,9 @@
-nodejs:
-  image: akawato2018/htmltest:0.1
-  ports:
-      - 9090:3000
+version: '2'
+services:
+  nodejs:
+    image: akawato2018/htmltest:0.3
+    ports:
+      - 9090:1337
+  nats:
+    image: akawato2018/nats-test:0.2
+    network_mode: host
