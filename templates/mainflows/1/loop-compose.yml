@@ -1,5 +1,11 @@
 .catalog:
-  name: main flows test
-  version: 0.2
-  uuid: mainflows-test-0
-
+  name: main flows private test
+  version: 1.0
+  uuid: mainflows-0
+  questions:
+  - variable: RESTART
+    description: 'Application restart option: always, on-failure'
+    label: 'Restart:'
+    required: true
+    default: "always"
+    type: string
