@@ -1,6 +1,6 @@
 .catalog:
   name: main flows private test
-  version: 2.4
+  version: 2.5
   uuid: mainflows-0
   questions:
   - variable: RESTART
