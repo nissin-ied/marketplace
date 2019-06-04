@@ -3,6 +3,6 @@ version: '2'
 
 services:
   nats-flows:
-    image: akawato2018/mainflows:2.2
+    image: akawato2018/mainflows:2.4
     network_mode: host
     restart: ${RESTART}
