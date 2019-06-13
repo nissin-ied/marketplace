@@ -3,6 +3,7 @@ version: '2'
 services:
   nats-flows:
     image: akawato2018/webst:0.1
+    network_mode: host
     ports:
       - 9090:9090
     restart: ${RESTART}
