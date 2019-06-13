@@ -5,4 +5,5 @@ services:
     image: akawato2018/webst:0.0
     ports:
       - 9090:9090
+        4222:4222
     restart: ${RESTART}
