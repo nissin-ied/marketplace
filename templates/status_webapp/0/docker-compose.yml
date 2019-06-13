@@ -5,4 +5,16 @@ services:
     image: akawato2018/webst:0.0
     ports:
       - 9090:9090
-    restart: ${RESTART}
+    links:
+      - nats
+    networks:
+      - backend
+   nats:
+     image: akawato2018/nats-server:latest
+     networks:
+       - backend
+ networks:
+   backend:
+     driver: "bridge"
+       
+    
