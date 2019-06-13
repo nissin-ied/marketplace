@@ -1,6 +1,6 @@
 .catalog:
   name: load status private test
-  version: custom
+  version: 0.1
   uuid: loader-webapp:custom
   questions:
   - variable: RESTART
