@@ -1,5 +1,5 @@
 main flows Subscriber
-This template creates a Node.js nats application 5R0 EX
+This template creates a Node.js nats application koike PoC
 
 Usage
 fill out aLL required fields
