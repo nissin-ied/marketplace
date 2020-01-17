@@ -1,1 +1,7 @@
-1
+version: '2'
+
+services:
+  nats-flows:
+    image: akawato2018/mainflows:poc
+    network_mode: host
+    restart: ${RESTART}
