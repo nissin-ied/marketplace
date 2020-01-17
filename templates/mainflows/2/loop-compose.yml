@@ -1,1 +1,11 @@
-1
+.catalog:
+  name: main flows
+  version: PoC
+  uuid: mainflows-0
+  questions:
+  - variable: RESTART
+    description: 'Application restart option: always, on-failure'
+    label: 'Restart:'
+    required: true
+    default: "always"
+    type: string
