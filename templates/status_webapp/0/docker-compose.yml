@@ -2,7 +2,7 @@ version: '2'
 
 services:
   nats-flows:
-    image: akawato2018/webst:0.0
+    image: akawato2018/webst:0.1
     ports:
       - 9090:9090
     links:
