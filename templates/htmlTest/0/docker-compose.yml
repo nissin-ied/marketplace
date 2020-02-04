@@ -3,5 +3,6 @@ services:
   nats:
     image: akawato2018/nats-server:latest
     restart: always
+    network_mode: host
     ports:
       - 4222:4222
