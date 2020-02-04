@@ -3,5 +3,6 @@ services:
   nats:
     image: nats:latest
     restart: always
+    network_mode: bridge
     ports:
-      - 4222:4222
+      - 4222:4200
