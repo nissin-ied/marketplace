@@ -1,0 +1,11 @@
+.catalog:
+  name: dummy machine test
+  version: 0.0
+  uuid: dummymachine-0
+  questions:
+  - variable: RESTART
+    description: 'Application restart option: always, on-failure'
+    label: 'Restart:'
+    required: true
+    default: "always"
+    type: string
