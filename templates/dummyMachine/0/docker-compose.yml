@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  dummy-machine:
+    image: akawato2018/dummymachine:0.0
+    network_mode: host
+    restart: ${RESTART}
