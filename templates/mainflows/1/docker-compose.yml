@@ -6,3 +6,8 @@ services:
     image: akawato2018/mainflows:2.7
     network_mode: host
     restart: ${RESTART}
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "200k"
+        max-file: "10"
